@@ -1,3 +1,3 @@
 # cpp-composite
 
-Apply the composite pattern in C++.
+Applying the composite pattern in C++.
