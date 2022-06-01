@@ -4,7 +4,7 @@
 int main() {
     Clothing* uniform = new Clothing("uniform");
     Clothing* apron = new Clothing("apron");
-    Wearable* belt = new Wearable("belt");
+    Accessory* belt = new Accessory("belt");
     Clothing* jacket = new Clothing("jacket");
     Accessory* nametag = new Accessory("name tag");
     Accessory* scarf = new Accessory("scarf");
