@@ -11,7 +11,7 @@ private:
     vector<Wearable*> wearables;
 public:
     // EFFECTS: constructs a clothing item with name
-    Clothing(string name);
+    explicit Clothing(const string& name);
 
     // MODIFIES: this
     // EFFECTS: add wearables to the list

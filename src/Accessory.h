@@ -6,5 +6,5 @@
 class Accessory : public Wearable {
 public:
     // EFFECTS: constructs an accessory item with name
-    Accessory(string name);
+    explicit Accessory(const string& name);
 };

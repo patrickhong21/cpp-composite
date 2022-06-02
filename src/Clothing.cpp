@@ -1,6 +1,6 @@
 #include "Clothing.h"
 
-Clothing::Clothing(string name) : Wearable(name) {}
+Clothing::Clothing(const string& name) : Wearable(name) {}
 
 void Clothing::add(Wearable* w) {
     wearables.push_back(w);

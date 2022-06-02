@@ -1,7 +1,7 @@
 #include "Wearable.h"
 #include <iostream>
 
-Wearable::Wearable(string name) {
+Wearable::Wearable(const string& name) {
     this->name = name;
 }
 
